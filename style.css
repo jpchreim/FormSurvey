@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgb(52, 52, 137, 0.7),
+      rgb(102, 102, 158, 0.8)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Poppins;
+  color: #f3f3f3;
+}
+h1 {
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+small {
+  font-size: 15px;
+}
+#description {
+  display: block;
+  text-align: center;
+  margin-bottom: 2.25rem;
+  font-weight: 200px;
+  font-size: 18px;
+}
+#div-container {
+  margin: auto;
+  width: 45rem;
+  max-height: 100%;
+  box-sizing: border-box;
+  padding: 50px 40px 65px 40px;
+  background-color: #222244;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+p,
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: 00;
+}
+.lastone {
+  margin-top: 1.25rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  height: 2.1rem;
+  margin-bottom: 1.25rem;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: black;
+  color: grey;
+  font-family: inherit;
+  font-size: inherit;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 7px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  font-size: inherit;
+  font-family: inherit;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 45px;
+  margin-top: 1.5rem;
+  color: inherit;
+  font-family: inherit;
+  background-color: #37af65;
+  border: 0;
+  border-radius: 2px;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
